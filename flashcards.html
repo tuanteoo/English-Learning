@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flashcards — English Topics</title>
+    <meta name="description" content="Browse English vocabulary topics for flashcards." />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="page-header" aria-labelledby="page-title">
+        <a href="index.html" class="btn ghost" aria-label="Back to homepage">⬅ Home</a>
+        <div class="page-header__titles">
+          <h1 id="page-title" class="page-title">Flashcards</h1>
+          <p class="subtitle">Choose a topic to practice vocabulary.</p>
+        </div>
+      </header>
+
+      <section class="topics-grid" aria-label="Vocabulary topics">
+        <a href="#" class="topic-card" data-topic="Animals">
+          <span class="icon" aria-hidden="true">🐾</span>
+          <span class="text">Animals</span>
+        </a>
+        <a href="#" class="topic-card" data-topic="Food & Drinks">
+          <span class="icon" aria-hidden="true">🍎</span>
+          <span class="text">Food & Drinks</span>
+        </a>
+        <a href="#" class="topic-card" data-topic="Travel">
+          <span class="icon" aria-hidden="true">✈️</span>
+          <span class="text">Travel</span>
+        </a>
+        <a href="#" class="topic-card" data-topic="School">
+          <span class="icon" aria-hidden="true">🏫</span>
+          <span class="text">School</span>
+        </a>
+        <a href="#" class="topic-card" data-topic="Colors">
+          <span class="icon" aria-hidden="true">🎨</span>
+          <span class="text">Colors</span>
+        </a>
+        <a href="#" class="topic-card" data-topic="Numbers">
+          <span class="icon" aria-hidden="true">🔢</span>
+          <span class="text">Numbers</span>
+        </a>
+        <a href="#" class="topic-card" data-topic="Weather">
+          <span class="icon" aria-hidden="true">⛅</span>
+          <span class="text">Weather</span>
+        </a>
+        <a href="#" class="topic-card" data-topic="Family">
+          <span class="icon" aria-hidden="true">👨‍👩‍👧‍👦</span>
+          <span class="text">Family</span>
+        </a>
+        <a href="#" class="topic-card" data-topic="Jobs">
+          <span class="icon" aria-hidden="true">💼</span>
+          <span class="text">Jobs</span>
+        </a>
+        <a href="#" class="topic-card" data-topic="Hobbies">
+          <span class="icon" aria-hidden="true">🎸</span>
+          <span class="text">Hobbies</span>
+        </a>
+        <a href="#" class="topic-card" data-topic="Technology">
+          <span class="icon" aria-hidden="true">💻</span>
+          <span class="text">Technology</span>
+        </a>
+        <a href="#" class="topic-card" data-topic="Health">
+          <span class="icon" aria-hidden="true">🩺</span>
+          <span class="text">Health</span>
+        </a>
+        <a href="#" class="topic-card" data-topic="Clothes">
+          <span class="icon" aria-hidden="true">👕</span>
+          <span class="text">Clothes</span>
+        </a>
+        <a href="#" class="topic-card" data-topic="Sports">
+          <span class="icon" aria-hidden="true">⚽</span>
+          <span class="text">Sports</span>
+        </a>
+        <a href="#" class="topic-card" data-topic="House">
+          <span class="icon" aria-hidden="true">🏠</span>
+          <span class="text">House</span>
+        </a>
+        <a href="#" class="topic-card" data-topic="Nature">
+          <span class="icon" aria-hidden="true">🌿</span>
+          <span class="text">Nature</span>
+        </a>
+      </section>
+
+      <!-- Modal reused for topic previews -->
+      <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+        <div class="modal__content" role="document">
+          <h2 id="modal-title">Coming soon</h2>
+          <p id="modal-body">This feature is under construction.</p>
+          <button id="close-modal" class="btn primary" type="button">Close</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
+
